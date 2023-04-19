@@ -1,0 +1,186 @@
+:root {
+ --main-text-color:#303030;
+--main-background-color:#FFFFFF;
+--main-accent-color:#FF6C00;
+
+
+
+
+  --primary-font: Open Sans, sans-serif;
+  --secondary font: Raleway, sans-serif;
+}
+
+body {
+    background-color: var(--main-background-color);
+    font-family: var(--primary-font);
+}
+.logo {
+    color:var(--main-text-color);
+
+}
+.text-header {
+    
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.1em;
+        color: var(--main-background-color);
+        
+}
+.nav {
+    background-color: var(--main-text-color);
+}
+.text-header:hover,
+.text-header:focus {
+    color: var(--main-accent-color);
+    text-decoration:underline;
+}
+.list {
+
+        list-style: none;
+        text-decoration: none;
+
+    
+}
+.link {
+
+    text-decoration: none;
+    text-transform: none;
+}
+
+
+
+
+
+
+
+ text-style-main-title() {
+    font-size: 72px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 85px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@mixin text-style-slider-btn() {
+    font-size: 11px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@mixin text-style-main-text-theme-light() {
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@mixin text-style-main-text-theme-dark() {
+    font-size: 18px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@mixin text-style-title-theme-dark() {
+    font-size: 42px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@mixin text-style-title-theme-light() {
+    font-size: 42px;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-style: normal;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@mixin text-style-uppertitle-theme-dark() {
+    font-size: 11px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    line-height: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@mixin text-style-uppertitle-theme-light() {
+    font-size: 11px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    line-height: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@mixin text-style-small-text-theme-light() {
+    font-size: 11px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@mixin text-style-small-text-theme-dark() {
+    font-size: 11px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@mixin text-style-button-text-theme-dark() {
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+@mixin text-style-button-text-theme-light() {
+    font-size: 12px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-style: normal;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
